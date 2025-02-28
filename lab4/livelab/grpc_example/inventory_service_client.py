@@ -8,7 +8,7 @@ import inventory_service_pb2_grpc
 
 
 def generate_product_list():
-    yield inventory_service_pb2.ProductType(type="Laptop")
+    yield inventory_service_pb2.ProductType(type="Laptop") # One by one return the product types
     yield inventory_service_pb2.ProductType(type="Phone")
 
 
